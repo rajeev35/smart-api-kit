@@ -7,6 +7,6 @@
 - [x] 4. Create src/response.js
 - [x] 5. Create src/logger.js
 - [x] 6. Create src/validator.js
-- [ ] 7. Git init and initial commit
+- [x] 7. Git init and initial commit
 - [ ] 8. Test locally (npm pack)
 
