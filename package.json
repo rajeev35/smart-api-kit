@@ -1,0 +1,25 @@
+{
+  "name": "@rajeev3/smart-api-kit",
+  "version": "1.0.2",
+  "description": "Ready-made tools for backend developers: response handler, logger, validators, and more.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "api",
+    "toolkit",
+    "response",
+    "logger",
+    "validator",
+    "express",
+    "node"
+  ],
+  "author": "Smart API Toolkit",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/smart-api-kit.git"
+  }
+}
+
