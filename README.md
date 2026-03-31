@@ -5,8 +5,11 @@ Ready-made tools for backend developers. Start simple, scale to production.
 ## Installation
 
 ```bash
-npm install smart-api-kit
+npm install @rajeev3/smart-api-kit
 ```
+
+**Note:** Replace `allen` with your npm username and `SMART-API-KIT` with published package name if different.
+
 
 ## Quick Start
 
