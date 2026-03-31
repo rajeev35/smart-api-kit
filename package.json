@@ -31,5 +31,8 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rajeev35/smart-api-kit.git"
+  },
+  "dependencies": {
+    "@rajeev3/smart-api-kit": "^1.0.2"
   }
 }
