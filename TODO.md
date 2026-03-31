@@ -1,25 +1,19 @@
-# Smart API Toolkit - Publishing Preparation TODO
+# Smart API Toolkit - Phase 2: Middleware Support TODO
 
-## Approved Plan Steps (Phase 2: Publish Ready):
+## Phase 2 Steps (from approved plan):
 
-### 1. Fix Documentation & Config [COMPLETE ✅]
-- [x] Fix README.md (remove git merge conflict)
-- [x] Update package.json (repo, files field, bugs URL, keywords)
+### 1. Create Middleware Files [COMPLETE ✅]
+- [x] src/middleware/loggerMiddleware.js
+- [x] src/middleware/validateMiddleware.js
 
-### 2. Add Publishing Best Practices [COMPLETE ✅]
-- [x] Create .gitignore
-- [x] Create .npmignore
+### 2. Update Exports & Config [COMPLETE ✅]
+- [x] Update index.js (export middleware)
+- [x] package.json (add peerDependencies express)
+- [x] README.md (add middleware examples)
 
-### 3. Git Setup [COMPLETE ✅]
-- [x] git init
-- [x] git add .
-- [x] git commit -m "Initial commit: Smart API Toolkit Phase 1 MVP"
-- [x] git remote add origin https://github.com/rajeev35/smart-api-kit.git (already exists)
-- [x] git push -u origin main
+### 3. Test & Deploy [PENDING]
+- [ ] npm pack verify
+- [ ] git commit/push
+- [ ] npm version patch && npm publish
 
-### 4. Test & Publish [COMPLETE ✅]
-- [x] npm pack (verify)
-- [x] npm test (placeholder passes)
-- [ ] npm publish --access public
-
-**Next: Complete step 1 file edits.**
+**Next: Step 1 - Create middleware files.**

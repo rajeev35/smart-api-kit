@@ -54,8 +54,29 @@ api.validateEmail(email);
 api.validatePhone(phone);
 ```
 
+### 4. Express Middleware 🔥
+**Logger Middleware**
+```javascript
+const express = require('express');
+const api = require('@rajeev3/smart-api-kit');
+
+const app = express();
+app.use(express.json());
+app.use(api.middleware.loggerMiddleware());  // Logs all requests
+
+app.listen(3000);
+```
+
+**Validation Middleware** (auto-responds with api.error on fail)
+```javascript
+app.post('/register', 
+  api.middleware.validateEmailMiddleware('body.email'),  // req.body.email
+  api.middleware.validatePhoneMiddleware('body.phone'),
+  (req, res) => res.json(api.success({ user: req.body }))
+);
+```
+
 ## More Coming Soon
-- Express middleware
 - JWT Auth
 - Rate limiting
 - Request tracking
