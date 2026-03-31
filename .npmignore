@@ -1,0 +1,9 @@
+# Exclude from npm publish
+.git
+.gitignore
+TODO.md
+.nyc_output
+coverage/
+node_modules/
+*.log
+.env

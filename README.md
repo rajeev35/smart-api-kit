@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-# smart-api-kit
-It's a smart-api-kit which help developers alot.
-=======
 # Smart API Toolkit 🚀
 
 Ready-made tools for backend developers. Start simple, scale to production.
@@ -9,13 +5,13 @@ Ready-made tools for backend developers. Start simple, scale to production.
 ## Installation
 
 ```bash
-npm install smart-api-kit
+npm install @rajeev3/smart-api-kit
 ```
 
 ## Quick Start
 
 ```javascript
-const api = require('smart-api-kit');
+const api = require('@rajeev3/smart-api-kit');
 
 // Response handlers
 api.success({ user: 'John' }, 'User created');
@@ -64,6 +60,4 @@ api.validatePhone(phone);
 - Rate limiting
 - Request tracking
 
-⭐ Star on GitHub!
-
->>>>>>> ac04fd9 (Initial commit: Smart API Toolkit Phase 1 MVP)
+⭐ Star on GitHub: https://github.com/rajeev35/smart-api-kit

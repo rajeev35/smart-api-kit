@@ -3,6 +3,11 @@
   "version": "1.0.2",
   "description": "Ready-made tools for backend developers: response handler, logger, validators, and more.",
   "main": "index.js",
+  "files": [
+    "index.js",
+    "src/",
+    "README.md"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,13 +18,18 @@
     "logger",
     "validator",
     "express",
-    "node"
+    "node",
+    "backend",
+    "nodejs",
+    "smart-api-kit"
   ],
   "author": "Smart API Toolkit",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rajeev35/smart-api-kit/issues"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yourusername/smart-api-kit.git"
+    "url": "git+https://github.com/rajeev35/smart-api-kit.git"
   }
 }
-
